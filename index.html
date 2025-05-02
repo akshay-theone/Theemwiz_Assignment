@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
 </head>
 <body>
     <section id="hero">
@@ -22,9 +23,9 @@
                 <a href="#" class="nav-links">Pricing</a>
                 <a href="#" class="nav-links">Blog</a>
             </section>
-            
-            <section id="navSecRight" class="navSection"><button class="navBtn">CONTACT</button></section>
-            
+            <section id="navSecRight" class="navSection">
+              <button class="navBtn">CONTACT</button>
+            </section>
         </nav>
         <div id="hero-div">
             <div id="heroDivLeft">
@@ -64,7 +65,7 @@
       </div>
       <div class="aboutDiv">
       <div id="aboutLeft">
-        <img src="/Assets/pic.png" alt="">
+        <img src="/Assets/pic.png" alt="" class="aboutImg">
       </div>
       <div id="aboutRight">
         <h5 class="aboutheading">ABOUT</h5>
@@ -140,12 +141,12 @@
       <div id="imgsection">
       <div class="imgDiv">
         <div id="imgDiv1">
-          <img src="/Assets/Img1.svg" alt="">
+          <img src="/Assets/Img1.svg" alt="" class="workImg">
           <p class="imgDivText">Design</p>
           <h3 class="imgDivHeading">SOFA</h3>
         </div>
         <div id="imgDiv2">
-          <img src="/Assets/Img2.svg" alt="">
+          <img src="/Assets/Img2.svg" alt="" class="workImg">
           <p class="imgDivText imgDivText2">Branding</p>
           <h3 class="imgDivHeading">KeyBoard</h3>
         </div>
@@ -153,12 +154,12 @@
       </div>
       <div class="imgDiv">
         <div id="imgDiv3">
-          <img src="/Assets/Img3.svg" alt="">
+          <img src="/Assets/Img3.svg" alt="" class="workImg">
           <p class="imgDivText imgDivText3">Illustration</p>
           <h3 class="imgDivHeading">Work Media</h3>
         </div>
         <div id="imgDiv4">
-          <img src="/Assets/Img4.svg" alt="">
+          <img src="/Assets/Img4.svg" alt="" class="workImg">
           <p class="imgDivText">Motion</p>
           <h3 class="imgDivHeading">DDDone</h3>
         </div>
@@ -173,7 +174,7 @@
         <button class="adbtn">CONTACT US</button>
       </div>
       <div class="adDivTwo">
-        <img src="/Assets/adimg1.svg" alt="">
+        <img src="/Assets/adimg1.svg" alt="" class="addivtwoImg">
       </div>
       <div class="adDivThree">
         <img src="/Assets/adimg2.svg" alt="" class="girlimg">
@@ -353,12 +354,32 @@
           </div>
           <button class="formBtn">SUBMIT NOW</button>
       </div>
-      
         </div>
       <div class="pinDiv">
         <img src="/Assets/pin.svg" alt="">
       </div>
     </section>
+    <!--For Mobile-->
+    <div class="mobileformSection">
+      <div class="mobileformDiv">
+        <h4 class="mobileform-title">Get In Touch</h4>
+        <div class="mobileinputDiv">
+          <input type="email" placeholder="Your email" class="mobileinput">
+      <select >
+        <option >Subject</option>
+      </select>
+      <textarea name="" id="" placeholder="Message"></textarea>
+        </div>
+        <button class="mobileformBtn">SUBMIT NOW</button>
+    </div>
+      </div>
+    <section id="mobileMap">
+      <div class="mobileMapDiv">
+        <img src="/Assets/pin.svg" alt="" class="mobileMapPin">
+      </div>
+    </section>
+    <!--For Mobile-->
+
     <footer>
       <div class="footerDiv">
       <div class="footerDivOne">
