@@ -743,6 +743,7 @@
         height: 48px;
         margin: auto;
         margin-top: 40px;
+        margin-left: 55px;
         margin-bottom: 180px;
         font-size: 14px;
         font-weight: 900;
@@ -888,6 +889,8 @@
         /* border: 1px solid red; */
         display: flex;
         justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .devImgDiv{
