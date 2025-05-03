@@ -13,6 +13,32 @@
 </head>
 <body>
     <section id="hero">
+      <nav class="navbar navbar-expand-lg px-3" data-bs-theme="dark">
+        <div class="container-fluid">
+          <img src="/Assets/logo.svg" alt="" class="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 20px;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
         <nav id="navbar">
             <section id="navSecLeft" class="navSection">
                 <img src="/Assets/logo.svg" alt="" class="logo">
@@ -141,9 +167,11 @@
       <!--For Mobile-->
       <div class="mobileSelectDiv">
         <select class="mobileSelect">
-          <option >Subject</option>
+          <option >Show All</option>
         </select>
-        <img src="/Assets/Triangle.svg" alt="" class="mobileTriangleImg">
+        <svg class="mobileTriangleImg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(239, 109, 88, 1)" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+        </svg>
       </div>
       
       <!--For Mobile-->
@@ -162,7 +190,7 @@
         
       </div>
       <div class="imgDiv">
-        <div id="imgDiv3" style="margin-top: 20px;">
+        <div id="imgDiv3">
           <img src="/Assets/Img3.svg" alt="" class="workImg">
           <p class="imgDivText imgDivText3">Illustration</p>
           <h3 class="imgDivHeading">Work Media</h3>
@@ -196,7 +224,48 @@
         <h2 class="teamtitle">Team of Designers <br> and Developers</h2>
         <img src="/Assets/arrow.svg" alt="" class="arrowbtn">
       </div>
+      <!-- <div class="teamDivTwo">
+        <div class="devDiv">
+          <div class="devImgDiv">
+            <img src="/Assets/Dev1.svg" alt="" class="devImg devone">
+          </div>
+          <div class="devImgInfo">
+            <h4 class="devName">Azah Anyeni</h4>
+            <p class="devDes">Designer</p>
+          </div>
+        </div>
+        <div class="devDiv">
+          <div class="devImgDiv">
+            <img src="/Assets/Dev2.svg" alt="" class="devImg devtwo">
+          </div>
+          <div class="devImgInfo">
+            <h4 class="devName">Roelof Bekkenenks</h4>
+            <p class="devDes">React Developer</p>
+          </div>
+        </div>
+        <div class="devDiv">
+          <div class="devImgDiv">
+            <img src="/Assets/Dev3.svg" alt="" class="devImg devthree">
+          </div>
+          <div class="devImgInfo">
+            <h4 class="devName">Leonardo Oliveira</h4>
+            <p class="devDes">Illustrator</p>
+          </div>
+        </div>
+        <div class="devDiv">
+          <div class="devImgDiv">
+            <img src="/Assets/Dev4.svg" alt="" class="devImg devfour">
+          </div>
+          <div class="devImgInfo">
+            <h4 class="devName">Izabella Tabakova</h4>
+            <p class="devDes">Product Designer</p>
+          </div>
+        </div>
+      </div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+      
+          <!-- Slide 1 -->
           <div class="carousel-item active">
             <div class="teamDivTwo">
               <div class="devDiv">
@@ -236,9 +305,11 @@
                 </div>
               </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
+
+      
       <div class="teamDivThree">
         <img src="/Assets/pins.svg" alt="">
       </div>
@@ -429,6 +500,7 @@
       <p class="tocText">Privacy Policy</p>
     </div>
     </div>
+    <p style="text-align: center;margin-bottom: 0px;">Created by Akshay Gawde</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>

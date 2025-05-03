@@ -18,10 +18,9 @@
     
     /*Nav section*/
     #navbar{
-        width: 375px;
         /* border: 1px solid white; */
         margin:auto;
-        display: flex;
+        display: none;
         justify-content: space-around;
         align-items: center;
         background-color: #28293E;
@@ -99,7 +98,7 @@
         justify-content: center;
         align-items: center;
         margin:auto;
-        margin-top: 100px;
+        margin-top: 50px;
         padding-bottom: 40px;
         gap: 50px;
     }
@@ -606,16 +605,16 @@
         margin: auto;
         margin-bottom: 50px;
         display: flex;
-
     }
 .mobileTriangleImg{
     margin-left: -20px;
-    margin-right: 5px;
+    /* margin-right: 5px; */
+    margin-top: 20px;
 }
 
     .mobileSelect{
         width: 329px;
-        padding: 15px 0;
+        padding: 15px 15px;
         -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
@@ -671,6 +670,7 @@
         display: flex;
         flex-direction: column;
         gap: 28px;
+        
     }
     
 .workImg{
@@ -684,6 +684,7 @@
     
     #imgDiv2{
         position: relative;
+        margin-bottom: 30px;
         /* border: 1px solid red; */
     }
     
@@ -743,8 +744,8 @@
         height: 48px;
         margin: auto;
         margin-top: 40px;
-        margin-left: 55px;
         margin-bottom: 180px;
+        margin-left: 45px;
         font-size: 14px;
         font-weight: 900;
         line-height: 100%;
@@ -889,8 +890,7 @@
         /* border: 1px solid red; */
         display: flex;
         justify-content: space-between;
-        margin-left: 10px;
-        margin-right: 10px;
+        gap: 30px;
     }
     
     .devImgDiv{
@@ -1107,7 +1107,9 @@
     #faq{
         background-color: #FDF0E9;
         width: 375px;
+        /* margin: auto; */
         padding-bottom: 250px;
+        padding-right: 414px;
     }
     
     #faq-section{
@@ -1254,6 +1256,7 @@
         width: 375px;
         /* margin: auto; */
         background-color:#FDF0E9;
+        padding-right: 414px;
         border: 1px solid rgba(255, 0, 0, 0);
     }
     
@@ -1335,6 +1338,7 @@
         object-fit: fill;
         width: 375px;
         height: 720px;
+        padding-right: 414px;
         transform: scale(100%);
         position: relative;
     }
