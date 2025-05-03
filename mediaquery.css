@@ -71,7 +71,10 @@
         
     }
     
-    
+    .ctbtn{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
     
     .nav-links{
         font-weight: 400;
@@ -191,6 +194,11 @@
         font-weight: 900;
     }
     
+    .hwLink{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
     #herobtn2{
         color: #FFFFFF;
         font-size: 16px;
@@ -1575,6 +1583,11 @@
     
     .tocText:hover{
         cursor: pointer;
+    }
+
+    .footerLinks{
+        text-decoration: none;
+        color:rgba(57, 20, 0, 1);
     }
     /*Footer*/
     }
