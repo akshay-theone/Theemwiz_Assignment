@@ -1,4 +1,4 @@
-@media(max-width:375px){
+@media(max-width:450px){
     
     *{
         box-sizing: border-box;
@@ -590,19 +590,43 @@
     
     .portfolio-title{
         color: rgba(255, 255, 255, 1);
-        font-size: 56px;
+        font-size: 40px;
         font-weight: 800;
-        line-height: 64px;
-        letter-spacing: -1px;
+        line-height: 48px;
+        letter-spacing: 0px;
         text-align: center;
-        margin-bottom: 45px;
+        margin-bottom: 5px;
+        /* border: 1px solid red; */
     
     }
+
+    /*For Mobile*/
+    .mobileSelectDiv{
+        width: 329px;
+        margin: auto;
+        margin-bottom: 50px;
+        display: flex;
+
+    }
+.mobileTriangleImg{
+    margin-left: -20px;
+    margin-right: 5px;
+}
+
+    .mobileSelect{
+        width: 329px;
+        padding: 15px 0;
+        -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
     
+      /*For Mobile*/
+
     .optDiv{
         display: none;
-        width: 329px;
-        height: 40px;
+        width: 0px;
+        height: 0px;
         margin: auto;
         margin-bottom: 60px;
         display: flex;
