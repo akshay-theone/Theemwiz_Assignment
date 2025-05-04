@@ -43,7 +43,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px auto;
     }
     #navSecLeft{
         /* border: 1px solid red; */
@@ -72,6 +71,7 @@
         text-align: center;
         text-decoration: none;
         border-radius: 5px;
+        padding: 15px 30px
         
     }
     
@@ -165,7 +165,7 @@
         height: 48px;
         background-color: #EF6D58;
         color: #FFFFFF;
-        /* padding: 16px 10px; */
+        padding: 16px 10px;
         text-align: center;
         line-height: 100%;
         font-size: 14px;
@@ -210,6 +210,11 @@
         margin-bottom: 0;
         padding: 0;
     }
+
+    .manText br{
+        display: none;
+    }
+
     .manWork{
         color:rgba(255, 255, 255, 1);
         font-size: 16px;
@@ -1142,7 +1147,6 @@
         object-fit: fill;
         width: 375px;
         height: 720px;
-        transform: scale(100%);
         position: relative;
     }
     .mobileformSection{
@@ -1166,7 +1170,6 @@
         background-repeat: no-repeat;
         object-fit: fill;
         height: 720px;
-        transform: scale(100%);
         position: relative;
     }
     

@@ -40,18 +40,18 @@
         </div>
       </nav>
         <nav id="navbar">
-            <section id="navSecLeft" class="navSection">
+            <div id="navSecLeft" class="navSection">
                 <img src="/Assets/logo.svg" alt="" class="logo">
-            </section>
-            <section id="navSecCenter" class="navSection">
+            </div>
+            <div id="navSecCenter" class="navSection">
                 <a href="#aboutSection" class="nav-links">About</a>
                 <a href="#infoDiv" class="nav-links">Services</a>
                 <a href="#pricingSection" class="nav-links">Pricing</a>
                 <a href="#faq-section" class="nav-links">Blog</a>
-            </section>
-            <section id="navSecRight" class="navSection">
-              <button class="navBtn"><a href="#mapSection" class="ctbtn">CONTACT</a></button>
-            </section>
+            </div>
+            <div id="navSecRight" class="navSection">
+            <a href="#mapSection" class="navBtn">CONTACT</a>
+            </div>
         </nav>
         <div id="hero-div">
             <div id="heroDivLeft">
@@ -66,12 +66,12 @@
                     </p>
                 </div>
                 <div class="heroBtnDiv" id="heroBtnDiv">
-                    <button class="btn" id="herobtn1"><a href="#infoDiv" class="hwLink">HOW WE WORK</a></button>
-                    <button class="btn" id="herobtn2"><a href="#mapSection" class="ctbtn">Contact Us</a></button>
+                    <a class="btn" href="#infoDiv" id="herobtn1">HOW WE WORK</a>
+                  <a href="#mapSection" class="btn" id="herobtn2">Contact Us</a>
                 </div>
                 <div class="manDiv"><img src="/Assets/Bitmap.svg" alt="" class="manImg">
                   <div class="manDivRight">
-                    <p class="manText">"Put themselves in the merchant's shoes"</p>
+                    <p class="manText">"Put themselves in the <br> merchant's shoes"</p>
                     <p class="manWork">Meta Inc.</p>
                   </div>
                 </div>
@@ -169,7 +169,7 @@
         <select class="mobileSelect">
           <option >Show All</option>
         </select>
-        <svg class="mobileTriangleImg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(239, 109, 88, 1)" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+        <svg class="mobileTriangleImg bi bi-caret-down-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(239, 109, 88, 1)" viewBox="0 0 16 16">
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg>
       </div>
@@ -390,7 +390,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button custom-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <p>A digital agency is a business</p>
+                  <span>A digital agency is a business</span>
                   <img src="/Assets/up.svg" alt="Play" class="btn-img">
                 </button>
               </h2>
@@ -402,24 +402,24 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <p>Hire to outsource your digital</p>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false">
+                    <span>Hire to outsource your digital</span>
                     <img src="/Assets/down.svg" alt="Play" class="btn-img">
                 </button>
               </h2>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <p>Marketing efforts</p>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false">
+                    <span>Marketing efforts</span>
                     <img src="/Assets/down.svg" alt="Play" class="btn-img">
                 </button>
               </h2>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <p>Can provide your business</p>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false">
+                    <span>Can provide your business</span>
                     <img src="/Assets/down.svg" alt="Play" class="btn-img">
                 </button>
               </h2>
@@ -435,7 +435,7 @@
         <select >
           <option >Subject</option>
         </select>
-        <textarea name="" id="" placeholder="Message"></textarea>
+        <textarea placeholder="Message"></textarea>
           </div>
           <button class="formBtn">SUBMIT NOW</button>
       </div>
@@ -453,16 +453,16 @@
       <select >
         <option >Subject</option>
       </select>
-      <textarea name="" id="" placeholder="Message"></textarea>
+      <textarea placeholder="Message"></textarea>
         </div>
         <button class="mobileformBtn">SUBMIT NOW</button>
     </div>
       </div>
-    <section id="mobileMap">
+    <div id="mobileMap">
       <div class="mobileMapDiv">
         <img src="/Assets/pin.svg" alt="" class="mobileMapPin">
       </div>
-    </section>
+    </div>
     <!--For Mobile-->
 
     <footer>

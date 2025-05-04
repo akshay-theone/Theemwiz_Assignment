@@ -5,6 +5,7 @@
         margin: 0;
         padding: 0;
         font-family: "Epilogue", sans-serif;
+        /* outline: 1px solid red; */
     }
     
     body{
@@ -34,11 +35,9 @@
     
     #navSecCenter{
         /* border: 1px solid orange; */
-        width: 515px;
         display: none;
         justify-content: space-between;
         align-items: center;
-        padding: 15px auto;
     }
     #navSecLeft{
         /* border: 1px solid red; */
@@ -187,7 +186,7 @@
         height: 48px;
         background-color: #EF6D58;
         color: #FFFFFF;
-        /* padding: 16px 10px; */
+        padding: 16px 10px;
         text-align: center;
         line-height: 100%;
         font-size: 14px;
@@ -225,7 +224,7 @@
     }
     
     .manText{
-        width: 365px;
+        /* width: 365px;
         color:rgba(255, 255, 255, 0.64);
         font-size: 16px;
         font-weight: 400;
@@ -234,23 +233,34 @@
         margin-bottom: 0;
         padding: 0;
         padding-top: 25px;
-        padding-right: 180px;
+        padding-right: 180px; */
+        color:rgba(255, 255, 255, 0.64);
+        width: 100%;  /* Set width to 100% to prevent overflow */
+        max-width: 100%;  /* Ensure the element doesn't exceed the viewport width */
+        padding-right: 20px;  /* Reduce padding to fit smaller screens */
+        font-size: 14px;
+        line-height: 28px;
     }
     .manWork{
-        color:rgba(255, 255, 255, 1);
+        /* color:rgba(255, 255, 255, 1);
         font-size: 16px;
         font-weight: 400;
         line-height: 32px;
         margin-left: 6px;
         margin-top: 0;
-        padding-top: 0;
+        padding-top: 0; */
+        color:rgba(255, 255, 255, 1);
+        font-size: 14px;
+        line-height: 28px;
     
     }
     
     .manDivRight{
         /* border: 1px solid yellow; */
-        margin: 0;
+        /* margin: 0;
         margin-top: 20px;
+        margin-left: 0; */
+        margin-top: 50px;
         margin-left: 0;
     }
     
@@ -753,7 +763,7 @@
         margin: auto;
         margin-top: 40px;
         margin-bottom: 180px;
-        margin-left: 45px;
+        margin-left: 25px;
         font-size: 14px;
         font-weight: 900;
         line-height: 100%;
@@ -842,7 +852,7 @@
         z-index: 2;
         margin-left: 20px;
         padding-bottom: 115px;
-        transform: scale(150%);
+        transform: scale(1.5);
     }
     
     .cloudimg{
@@ -899,6 +909,7 @@
         display: flex;
         justify-content: space-between;
         gap: 30px;
+        padding: 1px 20px;
     }
     
     .devImgDiv{
@@ -1117,7 +1128,7 @@
         width: 375px;
         /* margin: auto; */
         padding-bottom: 250px;
-        padding-right: 414px;
+        /* padding-right: 414px; */
     }
     
     #faq-section{
@@ -1264,7 +1275,7 @@
         width: 375px;
         /* margin: auto; */
         background-color:#FDF0E9;
-        padding-right: 414px;
+        /* padding-right: 414px; */
         border: 1px solid rgba(255, 0, 0, 0);
     }
     
@@ -1346,8 +1357,7 @@
         object-fit: fill;
         width: 375px;
         height: 720px;
-        padding-right: 414px;
-        transform: scale(100%);
+        /* padding-right: 414px; */
         position: relative;
     }
 
@@ -1366,7 +1376,6 @@
         background-repeat: no-repeat;
         object-fit: fill;
         height: 720px;
-        transform: scale(100%);
         position: relative;
     }
     
