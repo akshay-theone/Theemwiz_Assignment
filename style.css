@@ -16,7 +16,7 @@
     }
     
     
-    /*Nav section*/
+    /*Styling for Nav section start*/
 .navbar{
     display: none;
 }
@@ -88,13 +88,10 @@
         text-decoration: none;
         color:rgba(255, 255, 255, 1);
         background-color: #28293E;
-    }
+    }  
+    /*Styling for Nav section end*/
     
-    
-    
-    /*Nav section*/
-    
-    /*Hero section*/
+    /*Styling for Hero section start*/
     .logo{
         height: 48px;
     }
@@ -198,9 +195,6 @@
     
     }
     
-    .manImg{
-    }
-    
     .manText{
         color:rgba(255, 255, 255, 0.64);
         font-size: 16px;
@@ -233,11 +227,11 @@
         margin-left: 0;
     }
     
-    /*Hero section*/
+    /*Styling for Hero section end*/
     
     
     
-    /*About section*/
+    /*Styling for About section start*/
     
     #aboutSection{
         background-color:#FDF0E9;
@@ -334,7 +328,6 @@
         justify-content: space-evenly;
         border: 1px solid rgba(243, 209, 191, 1);
         border-radius: 6px;
-        /* padding: 0; */
     }
     .exp-title{
         color:rgba(57, 20, 0, 1);
@@ -476,7 +469,6 @@
         width: 1170px;
         margin: auto;
         padding-bottom: 100px;
-        /* margin-top: 25px; */
         padding-top: 120px;
         display: flex;
         align-items: center;
@@ -524,11 +516,10 @@
         left: 15px;
         bottom:15px;
     }
+    /*Styling for About section end*/
+   
     
-    
-    /*About section*/
-    
-    /*Portfolio section*/
+    /*Styling for Portfolio section start*/
     
     #portfolio{
         background: rgba(40, 41, 62, 1);
@@ -555,12 +546,12 @@
         margin-bottom: 45px;
     
     }
-/*For Mobile*/
+/* Styling for For Mobile start*/
 .mobileSelectDiv{
     display: none;
 }
 .mobileSelect{display: none;}
-/*For Mobile*/
+/*Styling for For Mobile end*/
 
 
     .optDiv{
@@ -734,12 +725,12 @@
         border-radius: 5px;
         background-color:rgba(239, 109, 88, 1);
         color: rgba(255, 255, 255, 1);
-        width: 154px;
-        height: 48px;
+        padding: 16px 30px;
         font-size: 14px;
         font-weight: 900;
         line-height: 100%;
         letter-spacing: 0px;
+        text-decoration: none;
     }
     
     .staricon{
@@ -850,9 +841,9 @@
         padding-bottom: 110px;
     }
     
-    /*Portfolio section*/
+    /*Styling for Portfolio section end*/
     
-    /*Pricing*/
+    /*Styling for Pricing start*/
     
     #pricingSection{
         background-color:#FDF0E9;
@@ -953,11 +944,13 @@
         line-height: 100%;
         letter-spacing: 0px;
         border: none;
+        text-decoration: none;
     }
     
     .priceBtnOne , .priceBtnThree{
         width: 154px;
         height: 48px;
+        padding: 16px 30px;
         background-color: rgba(255, 255, 255, 1);
         box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
         border-radius: 6px;
@@ -970,6 +963,7 @@
         background-color: rgba(239, 109, 88, 1);
         width: 154px;
         height: 48px;
+        padding: 16px 30px;
         border-radius: 6px;
         margin-top: 20px;
     }
@@ -1001,9 +995,9 @@
         margin-top: 20px;
     }
     
-    /*Pricing*/
+    /*Styling for Pricing end*/
     
-    /*FAQ*/
+    /*Styling for FAQ start*/
     #faq{
         background-color: #FDF0E9;
         width: 100vw;
@@ -1014,7 +1008,7 @@
         display: flex;
         justify-content: space-between;
         margin: auto;
-        padding-bottom:200px ;
+        padding-bottom:120px ;
     }
     
     .accordion{
@@ -1079,12 +1073,12 @@
         font-weight: 700;
         line-height: 32px;
         letter-spacing: 0px;
-        background-color: #FDF0E9; /* header color */
+        background-color: #FDF0E9;
       }
       
       .accordion-button.collapsed {
-        background-color: #FDF0E9; /* Replace with your desired color */
-        color: rgba(57, 20, 0, 1);              /* Optional: change text color too */
+        background-color: #FDF0E9;
+        color: rgba(57, 20, 0, 1);
         padding-left: 40px;
         padding-top: 30px;
         display: flex;
@@ -1093,7 +1087,7 @@
       
     
       .accordion-button:not(.collapsed) {
-        background-color: #ffffff; /* open state color */
+        background-color: #ffffff;
         color: rgba(57, 20, 0, 1);
         font-size: 24px;
         font-weight: 700;
@@ -1105,19 +1099,17 @@
       
       .accordion-item:first-child .accordion-button:not(.collapsed) {
         border: none;
-        box-shadow: none; /* Removes default Bootstrap box-shadow */
+        box-shadow: none;
       }
       
-    /* Remove default arrow icon */
     .accordion-button::after {
         display: none;
       }
       
-      /* Custom button styling */
       .custom-button {
         display: flex;
         justify-content: space-around;
-        align-items: center; /* This vertically centers text and image */
+        align-items: center;
         width: 100%;
         padding: 10px 16px;
         background: transparent;
@@ -1125,8 +1117,6 @@
         font-weight: bold;
       }
       
-      
-      /* Image */
       .btn-img {
         width: 32px;
         height: 32px;
@@ -1134,10 +1124,10 @@
         margin-top: -20px;
       }
       
-    /*FAQ*/
+    /*Styling for FAQ end*/
     
-    /*Map*/
-    /*MobileSection*/
+    /*Styling for Map start*/
+    /*Styling for MobileSection start*/
     #mobileMap{
         display: none;
         background-image: url(/Assets/map.jpg);
@@ -1162,7 +1152,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     }
-    /*MobileSection*/
+    /*Styling for MobileSection end*/
     #mapSection{
         background-image: url(/Assets/map.jpg);
         background-size: cover;
@@ -1175,7 +1165,6 @@
     
     .formSection{
         width: 1170px;
-        /* margin: auto; */
         border: 1px solid rgba(255, 0, 0, 0);
     }
     
@@ -1267,9 +1256,9 @@
         top: 340px;
     }
     
-    /*Map*/
+    /*Styling for Map end*/
     
-    /*Footer*/
+    /*Styling for Footer start*/
     footer{
         background-color:#FDF0E9;
     }
@@ -1385,5 +1374,5 @@
         text-decoration: none;
         color:rgba(57, 20, 0, 1);
     }
-    /*Footer*/
+    /*Styling for Footer end*/
     }

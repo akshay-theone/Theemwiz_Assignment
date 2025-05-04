@@ -17,7 +17,7 @@
     }
     
     
-    /*Nav section*/
+    /*Styling for Nav section start*/
     #navbar{
         /* border: 1px solid white; */
         margin:auto;
@@ -87,9 +87,9 @@
     
     
     
-    /*Nav section*/
+    /*Styling for Nav section end*/
     
-    /*Hero section*/
+    /*Styling for Hero section start*/
     .logo{
         height: 48px;
     }
@@ -193,11 +193,6 @@
         font-weight: 900;
     }
     
-    .hwLink{
-        text-decoration: none;
-        color: #FFFFFF;
-    }
-
     #herobtn2{
         color: #FFFFFF;
         font-size: 16px;
@@ -224,31 +219,14 @@
     }
     
     .manText{
-        /* width: 365px;
         color:rgba(255, 255, 255, 0.64);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 32px;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding: 0;
-        padding-top: 25px;
-        padding-right: 180px; */
-        color:rgba(255, 255, 255, 0.64);
-        width: 100%;  /* Set width to 100% to prevent overflow */
-        max-width: 100%;  /* Ensure the element doesn't exceed the viewport width */
-        padding-right: 20px;  /* Reduce padding to fit smaller screens */
+        width: 100%; 
+        max-width: 100%;  
+        padding-right: 20px;
         font-size: 14px;
         line-height: 28px;
     }
     .manWork{
-        /* color:rgba(255, 255, 255, 1);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 32px;
-        margin-left: 6px;
-        margin-top: 0;
-        padding-top: 0; */
         color:rgba(255, 255, 255, 1);
         font-size: 14px;
         line-height: 28px;
@@ -257,18 +235,15 @@
     
     .manDivRight{
         /* border: 1px solid yellow; */
-        /* margin: 0;
-        margin-top: 20px;
-        margin-left: 0; */
         margin-top: 50px;
         margin-left: 0;
     }
     
-    /*Hero section*/
+    /*Styling for Hero section end*/
     
     
     
-    /*About section*/
+    /*Styling for About section start*/
     
     #aboutSection{
         background-color:#FDF0E9;
@@ -284,7 +259,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 65px 0;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
         border-bottom: 1px solid rgba(243, 209, 191, 1)
         /* border: 1px solid red; */
     }
@@ -441,8 +416,8 @@
     #infoDiv{
         width: 329px;
         margin: auto;
-        margin-top: 120px;
-        margin-bottom: 80px;
+        margin-top: 100px;
+        margin-bottom: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -528,7 +503,7 @@
     #vidDiv{
         width: 329px;
         margin: auto;
-        padding-bottom: 100px;
+        padding-bottom: 80px;
         /* margin-top: 25px; */
         padding-top: 60px;
         display: flex;
@@ -586,9 +561,9 @@
     }
     
     
-    /*About section*/
+    /*Styling for About section end*/
     
-    /*Portfolio section*/
+    /* Styling for Portfolio section start*/
     
     #portfolio{
         background: rgba(40, 41, 62, 1);
@@ -617,7 +592,7 @@
     
     }
 
-    /*For Mobile*/
+    /*Styling for For Mobile start*/
     .mobileSelectDiv{
         width: 329px;
         margin: auto;
@@ -626,7 +601,6 @@
     }
 .mobileTriangleImg{
     margin-left: -20px;
-    /* margin-right: 5px; */
     margin-top: 20px;
 }
 
@@ -638,7 +612,7 @@
       appearance: none;
     }
     
-      /*For Mobile*/
+      /*Styling for For Mobile end*/
 
     .optDiv{
         display: none;
@@ -712,6 +686,7 @@
     }
     
     #imgDiv4{
+        display: none;
         position: relative;
         /* border: 1px solid red; */
     }
@@ -762,8 +737,8 @@
         height: 48px;
         margin: auto;
         margin-top: 40px;
-        margin-bottom: 180px;
-        margin-left: 30px;
+        margin-bottom: 160px;
+        margin-left: 110px;
         font-size: 14px;
         font-weight: 900;
         line-height: 100%;
@@ -831,8 +806,8 @@
         border-radius: 5px;
         background-color:rgba(239, 109, 88, 1);
         color: rgba(255, 255, 255, 1);
-        width: 154px;
-        height: 48px;
+        padding: 16px 30px;
+        text-decoration: none;
         font-size: 14px;
         font-weight: 900;
         line-height: 100%;
@@ -851,7 +826,7 @@
         height: 317px;
         z-index: 2;
         margin-left: 20px;
-        padding-bottom: 115px;
+        padding-bottom: 108px;
         transform: scale(1.5);
     }
     
@@ -959,19 +934,19 @@
         padding-bottom: 110px;
     }
     
-    /*Portfolio section*/
+    /*Styling for Portfolio section end*/
     
-    /*Pricing*/
+    /*Styling for Pricing start*/
     
     #pricingSection{
         background-color:#FDF0E9;
-        padding-bottom: 120px;
+        padding-bottom: 100px;
     }
     
     #pricingDiv{
         width: 375px;
         margin: auto;
-        padding-top: 80px;
+        padding-top: 100px;
         /* border: 1px solid red; */
     }
     
@@ -1072,11 +1047,13 @@
         line-height: 100%;
         letter-spacing: 0px;
         border: none;
+        text-decoration: none;
     }
     
     .priceBtnOne , .priceBtnThree{
         width: 154px;
         height: 48px;
+        padding: 16px 30px;
         background-color: rgba(255, 255, 255, 1);
         box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
         border-radius: 6px;
@@ -1089,6 +1066,7 @@
         background-color: rgba(239, 109, 88, 1);
         width: 154px;
         height: 48px;
+        padding: 16px 30px;
         border-radius: 6px;
         margin-top: 20px;
     }
@@ -1120,14 +1098,14 @@
         margin-top: 20px;
     }
     
-    /*Pricing*/
+    /*Styling for Pricing end*/
     
-    /*FAQ*/
+    /*Styling for FAQ start*/
     #faq{
         background-color: #FDF0E9;
         width: 100%;
         margin: auto;
-        padding-bottom: 250px;
+        padding-bottom: 120px;
         /* padding-right: 414px; */
     }
     
@@ -1212,12 +1190,12 @@
         font-weight: 700;
         line-height: 32px;
         letter-spacing: 0px;
-        background-color: #FDF0E9; /* header color */
+        background-color: #FDF0E9;
       }
       
       .accordion-button.collapsed {
-        background-color: #FDF0E9; /* Replace with your desired color */
-        color: rgba(57, 20, 0, 1);              /* Optional: change text color too */
+        background-color: #FDF0E9; 
+        color: rgba(57, 20, 0, 1);     
         padding-left: 40px;
         padding-top: 30px;
         display: flex;
@@ -1226,7 +1204,7 @@
       
     
       .accordion-button:not(.collapsed) {
-        background-color: #ffffff; /* open state color */
+        background-color: #ffffff; 
         color: rgba(57, 20, 0, 1);
         font-size: 24px;
         font-weight: 700;
@@ -1238,19 +1216,18 @@
       
       .accordion-item:first-child .accordion-button:not(.collapsed) {
         border: none;
-        box-shadow: none; /* Removes default Bootstrap box-shadow */
+        box-shadow: none; 
       }
       
-    /* Remove default arrow icon */
+
     .accordion-button::after {
         display: none;
       }
       
-      /* Custom button styling */
       .custom-button {
         display: flex;
         justify-content: space-around;
-        align-items: center; /* This vertically centers text and image */
+        align-items: center;
         width: 100%;
         padding: 10px 16px;
         background: transparent;
@@ -1258,8 +1235,6 @@
         font-weight: bold;
       }
       
-      
-      /* Image */
       .btn-img {
         width: 32px;
         height: 32px;
@@ -1267,17 +1242,15 @@
         margin-top: -20px;
       }
       
-    /*FAQ*/
+    /*Styling for FAQ end*/
     
-    /*Map*/
-    /*Mobile Section*/
+    /* Styling for Map start*/
+    /*Styling for Mobile Section start*/
     .mobileformSection{
         width: 100%;
         display: flex;
         justify-content: center;
-        /* padding:1px 20px; */
         background-color:#FDF0E9;
-        /* padding-right: 414px; */
         border: 1px solid rgba(255, 0, 0, 0);
     }
     
@@ -1286,7 +1259,6 @@
         height: 464px;
         margin-top: 10px;
         margin-bottom: 80px;
-        /* margin-left: 20px; */
         border-radius: 6px;
         background-color:rgba(255, 255, 255, 1);
     }
@@ -1360,7 +1332,6 @@
         width: 100%;
         height: 720px;
         margin: auto;
-        /* padding-right: 414px; */
         position: relative;
     }
 
@@ -1370,7 +1341,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
-/*Mobile Section*/
+/*Styling for Mobile Section end*/
     #mapSection{
         display: none;
         background-image: url(/Assets/map.jpg);
@@ -1476,9 +1447,9 @@
         top: 340px;
     }
     
-    /*Map*/
+    /*Styling for Map end*/
     
-    /*Footer*/
+    /*Styling for Footer start*/
     footer{
         background-color:#FDF0E9;
     }
@@ -1601,5 +1572,5 @@
         text-decoration: none;
         color:rgba(57, 20, 0, 1);
     }
-    /*Footer*/
+    /*Styling for Footer end*/
     }
