@@ -1125,8 +1125,8 @@
     /*FAQ*/
     #faq{
         background-color: #FDF0E9;
-        width: 375px;
-        /* margin: auto; */
+        width: 100%;
+        margin: auto;
         padding-bottom: 250px;
         /* padding-right: 414px; */
     }
@@ -1272,8 +1272,10 @@
     /*Map*/
     /*Mobile Section*/
     .mobileformSection{
-        width: 375px;
-        /* margin: auto; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* padding:1px 20px; */
         background-color:#FDF0E9;
         /* padding-right: 414px; */
         border: 1px solid rgba(255, 0, 0, 0);
@@ -1284,7 +1286,7 @@
         height: 464px;
         margin-top: 10px;
         margin-bottom: 80px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         border-radius: 6px;
         background-color:rgba(255, 255, 255, 1);
     }
@@ -1355,8 +1357,9 @@
         background-position: center;
         background-repeat: no-repeat;
         object-fit: fill;
-        width: 375px;
+        width: 100%;
         height: 720px;
+        margin: auto;
         /* padding-right: 414px; */
         position: relative;
     }
